@@ -1,5 +1,4 @@
-# Homepage
-Hello World!
+# Hello World!
 
 I am Shreyas, and this is my personal website.
 
