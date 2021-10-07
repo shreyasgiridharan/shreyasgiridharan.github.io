@@ -1,6 +1,11 @@
-# shreyasgiridharan.github.io
-My website
+# Homepage
+Hello World!
 
-A simple Github personal website.
-This website will be moved to www.shreyas.de at some point. 
+I am Shreyas, and this is my personal website.
+
+I intended this website to be a temporary one, till I got me own domain.
+
+I have a new website now, https://www.shreyas.de. I intend to keep that website more up to date.
+
+See you there!
 
