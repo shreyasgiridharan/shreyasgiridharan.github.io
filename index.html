@@ -1,37 +1,290 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Description" content="Shreyas Giridharan - Site under renovation">
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.5">
-  <style type="text/css">
-    body {background-color: #0c0c14}
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 54.0px '.Apple Color Emoji UI'; -webkit-text-stroke: #000000}
-    p.p4 {margin: 0.0px 0.0px 21.0px 0.0px; text-align: center; font: 12.0px 'Helvetica Neue'; color: #757fa0; -webkit-text-stroke: #757fa0}
-    p.p5 {margin: 0.0px 0.0px 18.0px 0.0px; text-align: center; font: 12.0px 'Helvetica Neue'; color: #c1cbf4; -webkit-text-stroke: #c1cbf4}
-    p.p6 {margin: 0.0px 0.0px 6.0px 0.0px; text-align: center; font: 8.6px 'Helvetica Neue'; color: #757fa0; -webkit-text-stroke: #757fa0}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px 'Helvetica Neue'; -webkit-text-stroke: #000000; min-height: 15.0px}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 10.6px 'Helvetica Neue'; color: #757fa0; -webkit-text-stroke: #757fa0}
-    span.s1 {font-kerning: none}
-    span.s2 {font-kerning: none; background-color: rgba(255, 255, 255, 0.039)}
-    span.s3 {font-kerning: none; color: #e12c4e; background-color: rgba(255, 255, 255, 0.039); -webkit-text-stroke: 0px #e12c4e}
-    span.s4 {font-kerning: none; color: #48ff68; background-color: rgba(255, 255, 255, 0.039); -webkit-text-stroke: 0px #48ff68}
-    span.s5 {font: 10.6px 'Helvetica Neue'; font-kerning: none; color: #e12c4e; -webkit-text-stroke: 0px #e12c4e}
-  </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Shreyas Giridharan — site reinvention in progress" />
+    <meta name="author" content="Shreyas Giridharan" />
+    <meta name="google-site-verification" content="hjsSD03HRjPmXBoOE1LabAjPWdISgESW2Rfw8EzfhII" />
+    <title>Shreyas Giridharan</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Google Fonts — non-blocking with display=swap -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@500;700&family=Muli:wght@400;800&display=swap" rel="stylesheet" />
+
+    <style>
+        /* ── Reset ── */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        /* ── Page ── */
+        html, body {
+            width: 100%; height: 100%;
+            overflow: hidden;
+            background: #0d0d1a;
+            font-family: 'Muli', 'Segoe UI', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* ── Canvas behind everything ── */
+        canvas {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            z-index: 0;
+            display: block;
+        }
+
+        /* ── Glass card ── */
+        .card {
+            position: relative;
+            z-index: 1;
+            max-width: 620px;
+            width: 90%;
+            padding: 3rem 2.5rem;
+            text-align: center;
+            border-radius: 20px;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.12);
+            box-shadow: 0 12px 60px rgba(0,0,0,0.55);
+            /* CSS animation — no JS needed for card */
+            animation: fadeUp 0.9s ease both;
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(28px); }
+            to   { opacity: 1; transform: translateY(0);    }
+        }
+
+        /* ── Emoji ── */
+        .emoji {
+            font-size: 4rem;
+            display: inline-block;
+            margin-bottom: 1.2rem;
+            animation: wobble 3s ease-in-out infinite;
+        }
+
+        @keyframes wobble {
+            0%,100% { transform: rotate(-6deg) scale(1);    }
+            30%      { transform: rotate( 9deg) scale(1.1); }
+            60%      { transform: rotate(-4deg) scale(0.95);}
+            80%      { transform: rotate( 5deg) scale(1.04);}
+        }
+
+        /* ── Heading ── */
+        h1 {
+            font-family: 'Saira Extra Condensed', 'Arial Narrow', sans-serif;
+            font-size: clamp(1.9rem, 5.5vw, 2.9rem);
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 0.35rem;
+            /* Animated gradient text */
+            background: linear-gradient(270deg, #e94560, #f5a623, #50fa7b, #8be9fd, #e94560);
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradShift 6s ease infinite;
+        }
+
+        @keyframes gradShift {
+            0%   { background-position: 0%   50%; }
+            50%  { background-position: 100% 50%; }
+            100% { background-position: 0%   50%; }
+        }
+
+        /* ── Subtitle ── */
+        .subtitle {
+            font-size: 0.95rem;
+            font-style: italic;
+            color: #8892b0;
+            margin-bottom: 1.6rem;
+        }
+
+        /* ── Body copy ── */
+        p.copy {
+            font-size: 0.98rem;
+            line-height: 1.9;
+            color: #ccd6f6;
+            margin-bottom: 1.4rem;
+        }
+
+        p.copy strong { color: #e94560; }
+        p.copy em     { color: #50fa7b; font-style: normal; }
+
+        /* ── Progress bar ── */
+        .bar-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #8892b0;
+            margin-bottom: 0.45rem;
+        }
+
+        .bar-track {
+            background: rgba(255,255,255,0.08);
+            border-radius: 999px;
+            height: 6px;
+            overflow: hidden;
+            margin-bottom: 1.6rem;
+        }
+
+        .bar-fill {
+            height: 100%;
+            border-radius: 999px;
+            background: linear-gradient(90deg, #e94560, #f5a623, #50fa7b);
+            background-size: 200%;
+            animation: barSlide 3s ease-in-out infinite alternate,
+                       gradShift  6s ease         infinite;
+        }
+
+        @keyframes barSlide {
+            from { width: 18%; }
+            to   { width: 85%; }
+        }
+
+        /* ── Blinking cursor ── */
+        .cursor {
+            display: inline-block;
+            width: 3px; height: 1em;
+            background: #50fa7b;
+            vertical-align: middle;
+            margin-left: 4px;
+            border-radius: 1px;
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+            0%,100% { opacity: 1; }
+            50%      { opacity: 0; }
+        }
+
+        /* ── Contact ── */
+        .contact {
+            font-size: 0.85rem;
+            color: #8892b0;
+        }
+
+        .contact a {
+            color: #e94560;
+            text-decoration: none;
+            border-bottom: 1px dashed currentColor;
+            transition: color 0.2s;
+        }
+
+        .contact a:hover { color: #fff; }
+    </style>
 </head>
 <body>
-<p class="p1"><span class="s1">w</span></p>
-<p class="p2"><span class="s2">🪞</span></p>
-<h1 style="margin: 0.0px 0.0px 4.8px 0.0px; text-align: center; font: 36.0px 'Helvetica Neue'; -webkit-text-stroke: #000000"><span class="s2">Identity Crisis in Progress</span></h1>
-<p class="p4"><span class="s2">Please hold. The website is currently finding itself.</span></p>
-<p class="p5"><span class="s2">This site recently stared into the void, whispered </span><span class="s3">"who even am I?"</span><span class="s2">, and has since embarked on a journey of radical self-reinvention. It is currently reorganising its existential pixels, arguing with its own colour palette, and deciding whether </span><span class="s4">dark mode</span><span class="s2"> is an aesthetic or a personality.</span></p>
-<p class="p5"><span class="s2">Check back shortly to meet its </span><span class="s3">new avatar</span><span class="s2"> — presumably wiser, slightly more stylish, and far more opinionated about its font choices.</span></p>
-<p class="p6"><span class="s2">REINVENTION PROGRESS — SOMEWHERE BETWEEN CATERPILLAR &amp; BUTTERFLY</span></p>
-<p class="p7"><span class="s1"></span><br></p>
-<p class="p8"><span class="s2">Meanwhile, you can find Shreyas at <a href="mailto:shreyas.giridharan@gmail.com"><span class="s5">shreyas.giridharan@gmail.com</span></a></span></p>
+
+    <canvas id="c"></canvas>
+
+    <div class="card">
+        <div class="emoji">🪞</div>
+
+        <h1>Identity Crisis in Progress<span class="cursor"></span></h1>
+        <p class="subtitle">Please hold. The website is currently finding itself.</p>
+
+        <p class="copy">
+            This site recently stared into the void, whispered
+            <strong>"who even am I?"</strong> and has since embarked on a
+            journey of radical self-reinvention. It is busy reorganising its
+            existential pixels, arguing with its own colour palette, and
+            deciding whether <em>dark mode</em> is an aesthetic or a personality.
+        </p>
+
+        <p class="copy">
+            Check back shortly to meet its <strong>new avatar</strong> —
+            presumably wiser, slightly more stylish, and far more opinionated
+            about its font choices.
+        </p>
+
+        <p class="bar-label">Reinvention progress — somewhere between caterpillar &amp; butterfly</p>
+        <div class="bar-track"><div class="bar-fill"></div></div>
+
+        <p class="contact">
+            Meanwhile, reach Shreyas at
+            <a href="mailto:shreyas.giridharan@gmail.com">shreyas.giridharan@gmail.com</a>
+        </p>
+    </div>
+
+    <script>
+        (function () {
+            var canvas = document.getElementById('c');
+            var ctx    = canvas.getContext('2d');
+            var W, H, particles = [];
+
+            var COLORS = ['#e94560','#f5a623','#50fa7b','#8be9fd','#bd93f9','#ff79c6'];
+            var COUNT  = 80;
+
+            function resize() {
+                W = canvas.width  = window.innerWidth;
+                H = canvas.height = window.innerHeight;
+            }
+
+            function rand(a, b) { return Math.random() * (b - a) + a; }
+
+            function makeParticle(initial) {
+                return {
+                    x     : rand(0, W || window.innerWidth),
+                    y     : initial ? rand(0, H || window.innerHeight) : (H || window.innerHeight) + 8,
+                    r     : rand(1.5, 4),
+                    vx    : rand(-0.25, 0.25),
+                    vy    : rand(-0.35, -1.0),
+                    color : COLORS[Math.floor(Math.random() * COLORS.length)],
+                    alpha : rand(0.2, 0.7),
+                    da    : rand(-0.002, 0.002),
+                    phase : rand(0, Math.PI * 2),
+                    dphase: rand(0.01, 0.03)
+                };
+            }
+
+            function init() {
+                resize();
+                particles = [];
+                for (var i = 0; i < COUNT; i++) {
+                    particles.push(makeParticle(true));
+                }
+            }
+
+            function loop() {
+                ctx.clearRect(0, 0, W, H);
+
+                for (var i = 0; i < particles.length; i++) {
+                    var p = particles[i];
+
+                    p.x      += p.vx;
+                    p.y      += p.vy;
+                    p.alpha  += p.da;
+                    p.phase  += p.dphase;
+
+                    if (p.alpha < 0.1 || p.alpha > 0.75) p.da *= -1;
+                    if (p.y < -8) { particles[i] = makeParticle(false); continue; }
+
+                    var r = p.r + Math.sin(p.phase) * 0.5;
+
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, r, 0, Math.PI * 2);
+                    ctx.fillStyle   = p.color;
+                    ctx.globalAlpha = p.alpha;
+                    ctx.fill();
+                }
+
+                ctx.globalAlpha = 1;
+                requestAnimationFrame(loop);
+            }
+
+            window.addEventListener('resize', function () { resize(); });
+
+            // Delay slightly so the DOM is fully painted first
+            setTimeout(function () {
+                init();
+                loop();
+            }, 100);
+        }());
+    </script>
+
 </body>
 </html>
