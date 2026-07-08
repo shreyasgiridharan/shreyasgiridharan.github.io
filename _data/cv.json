@@ -1,152 +1,404 @@
 {
   "basics": {
-    "name": "Shreyas Giridharan",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://shreyasgiridharan.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Dr.-Ing. Shreyas Giridharan",
+    "label": "Interdisciplinary Engineer | Patent Attorney Trainee",
+    "email": "shreyas.giridharan@gmail.com",
+    "phone": "+49 176 432 57244",
+    "website": "https://www.shreyas.de",
+    "summary": "Interdisciplinary engineer transitioning into patent law, with a background spanning software development, geotechnics and mechanics. Currently training as a patent attorney candidate in Stuttgart, Germany, following a decade of research and teaching in computational geomechanics at the University of Stuttgart.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Stuttgart",
+      "countryCode": "DE",
+      "region": "Germany"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "network": "LinkedIn",
+        "username": "shreyas-giridharan",
+        "url": "https://www.linkedin.com/in/shreyas-giridharan"
       },
       {
         "network": "GitHub",
         "username": "shreyasgiridharan",
         "url": "https://github.com/shreyasgiridharan"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "",
+        "url": "https://scholar.google.de/citations?user=DlGiRKQAAAAJ&hl=en"
+      },
+      {
+        "network": "ORCID",
+        "username": "",
+        "url": "https://orcid.org/0000-0002-6939-1869"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "position": "Patent Attorney Trainee",
+      "company": "PFIZ/GAUSS Patentanwälte",
+      "startDate": "2026",
+      "endDate": "Present",
+      "summary": "Stuttgart, Germany. Focus areas: mechanical engineering, software (computer-implemented inventions, CII), physics.",
+      "highlights": [
+        "Drafting patent applications and responses to office actions.",
+        "Conducting patent searches and prior-art analyses."
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
+      "position": "Group Leader and Lecturer",
+      "company": "University of Stuttgart",
+      "startDate": "2023",
+      "endDate": "2026",
+      "summary": "Germany. Skills: technical writing, research, project leadership.",
+      "highlights": [
+        "Project lead for numerical simulation of large deformations.",
+        "Principal lecturer for Numerical Geomechanics (German and English); consistently top-rated by students.",
+        "Supervised 5+ Master's theses and mentored 10+ research assistants.",
+        "Reviewer for academic journals on numerical methods in geotechnics.",
+        "Developed high-performance software for large-deformation simulations; delivered a 95% accurate monopile prediction model validated against field data from RWE AG.",
+        "Automated simulation workflows using Python, reducing pre/post-processing time by up to 80%."
+      ]
+    },
+    {
+      "position": "Research Associate",
+      "company": "University of Stuttgart",
+      "startDate": "2017",
+      "endDate": "2023",
+      "summary": "Germany.",
+      "highlights": [
+        "Prepared technical project reports in German and English.",
+        "Contributed to 3 projects with 2 universities and 5 industry partners (RWE, innogy, GuD Consult, itap, BioConsult).",
+        "Developed open-source Python/MATLAB tools for teaching advanced constitutive modelling.",
+        "Managed software in the soil mechanics laboratory.",
+        "Ran finite element simulations in commercial tools to establish benchmark results for model validation.",
+        "Delivered tutorials for 3 Master's-level courses."
+      ]
+    },
+    {
+      "position": "Student Research Assistant",
+      "company": "University of Stuttgart",
+      "startDate": "2015",
+      "endDate": "2016",
+      "summary": "Germany.",
+      "highlights": [
+        "Implemented a novel multi-body contact algorithm in an internal codebase.",
+        "Wrote subroutines for coupled physical behaviour (e.g., fluid-structure interaction).",
+        "Created technical documentation for in-house simulation software."
+      ]
+    },
+    {
+      "position": "Assistant Manager, Technical Sales and Marketing",
+      "company": "Sundram Fasteners Limited",
+      "startDate": "2012",
       "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "summary": "India. Skills: stakeholder management, client relations, cross-functional collaboration.",
+      "highlights": [
+        "Managed a $50M portfolio; served export clients in 5 countries.",
+        "Conducted feasibility studies and cost analyses for prototypes.",
+        "Main point of contact for international clients and prototype deliveries."
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
+  "education": [
+    {
+      "institution": "University of Stuttgart, Germany",
+      "area": "PhD (Dr.-Ing.) in Numerical Geotechnics",
+      "studyType": "Doctorate",
+      "startDate": "2017",
+      "endDate": "2022",
+      "gpa": "magna cum laude (Very Good)",
+      "courses": [
+        "Dissertation: Convected Particle Domain Interpolation Method for Large Deformation Geotechnical Problems",
+        "Supervisor: Prof. Christian Moormann"
+      ]
+    },
+    {
+      "institution": "University of Stuttgart, Germany",
+      "area": "M.Sc. in Computational Mechanics",
+      "studyType": "Master of Science",
+      "startDate": "2014",
+      "endDate": "2016",
+      "gpa": "1.8",
+      "courses": [
+        "Thesis: Improvement of the Frictional Contact Algorithm with Application to Monopile Installation Simulations",
+        "Supervisor: Prof. Christian Moormann"
+      ]
+    },
+    {
+      "institution": "SRM University, India",
+      "area": "B.Tech. in Mechanical Engineering",
+      "studyType": "Bachelor of Technology",
+      "startDate": "2008",
+      "endDate": "2012",
+      "gpa": "1.3",
+      "courses": [
+        "Focus: computational mechanics, thermodynamics, and fundamentals of finite element analysis",
+        "Performance-based Scholarship Award: Top 10 students of the cohort"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Patent Expertise",
+      "keywords": [
+        "Technical research",
+        "Prior-art analysis",
+        "Technical documentation"
+      ]
+    },
+    {
+      "name": "Competencies",
+      "keywords": [
+        "Analytical thinking",
+        "Presentation skills",
+        "Complexity reduction",
+        "Detail-oriented work",
+        "Interdisciplinary collaboration"
+      ]
+    },
+    {
+      "name": "Programming",
+      "keywords": [
+        "Fortran (~12 yrs)",
+        "MATLAB (~12 yrs)",
+        "Python (~8 yrs)",
+        "C++ (~3 yrs)",
+        "Julia (~3 yrs)"
+      ]
+    },
+    {
+      "name": "Simulation Software",
+      "keywords": [
+        "Abaqus",
+        "ANSYS",
+        "OpenFOAM",
+        "Plaxis"
+      ]
+    },
+    {
+      "name": "Scripting",
+      "keywords": [
+        "Bash",
+        "Shell",
+        "Visual Basic"
+      ]
+    },
+    {
+      "name": "Data Analysis",
+      "keywords": [
+        "NumPy",
+        "Pandas",
+        "Matplotlib"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "Docker",
+        "Git",
+        "GitHub"
+      ]
+    },
+    {
+      "name": "Other Tools",
+      "keywords": [
+        "LaTeX",
+        "HPC clusters",
+        "Visual Studio",
+        "Microsoft Office",
+        "Linux",
+        "MacOS"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "Tamil",
+      "fluency": "Native"
+    },
+    {
+      "language": "German",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Telugu",
+      "fluency": "Fluent"
+    }
+  ],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://shreyasgiridharan.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Convected Particle Domain Interpolation Method for Large Deformation Geotechnical Problems",
+      "publisher": "PhD Thesis, Mitteilung Heft 77, Institute for Geotechnical Engineering, University of Stuttgart. ISBN 978-3-921837-77-1",
+      "releaseDate": "2022-11-11",
+      "website": "https://www.igs.uni-stuttgart.de/dokumente/Mitteilungen/77_Giridharan.pdf"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://shreyasgiridharan.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Comparison of UBCSAND and Hypoplastic Soil Model Predictions Using the Material Point Method",
+      "publisher": "Soils and Foundations, 60(4), 989–1000",
+      "releaseDate": "2020-08-01",
+      "website": "https://www.researchgate.net/publication/343543666_Comparison_of_UBCSAND_and_Hypoplastic_soil_model_predictions_using_the_Material_Point_Method"
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://shreyasgiridharan.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Application of Convected Particle Domain Interpolation Method (CPDI) for Predicting Dynamic Installation Processes of Offshore Monopiles by Vibration and Impact Driving",
+      "publisher": "Book chapter",
+      "releaseDate": "2025-08-01",
+      "website": "https://www.researchgate.net/publication/395182672_Application_of_Convected_Particle_Domain_Interpolation_Method_CPDI_for_predicting_dynamic_installation_processes_of_offshore_monopilesby_vibration_and_impact_driving"
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://shreyasgiridharan.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Numerical Prediction of the Installation of Vibratory Monopile Foundations for Offshore Wind Energy Projects",
+      "publisher": "Proceedings of the 10th European Conference on Numerical Methods in Geotechnical Engineering (NUMGE), London, UK",
+      "releaseDate": "2023-06-26",
+      "website": "https://www.researchgate.net/publication/372405796_INTERNATIONAL_SOCIETY_FOR_SOIL_MECHANICS_AND_GEOTECHNICAL_ENGINEERING_Numerical_prediction_of_the_installation_of_vibratory_monopile_foundations_for_offshore_wind_energy_projects"
+    },
+    {
+      "name": "On the Application of Convected Particle Domain Interpolation Method to the Numerical Modelling of Offshore Monopile Installations",
+      "publisher": "Fachsektionstage 2023, DGGT, Würzburg, Germany",
+      "releaseDate": "2023-09-01",
+      "website": ""
+    },
+    {
+      "name": "Numerical Approach for Predicting the Stability of Saturated Soil Structures Under Dynamic Loads",
+      "publisher": "20th International Conference on Soil Mechanics and Geotechnical Engineering (ICSMGE), Sydney, Australia",
+      "releaseDate": "2022-05-01",
+      "website": ""
+    },
+    {
+      "name": "Modelling Liquefaction Problems in Saturated Sand with Application to Sea-Dike Failure Under Seismic Loading",
+      "publisher": "Proceedings of the XVII European Conference on Soil Mechanics and Geotechnical Engineering (ECSMGE-2019), Reykjavik, Iceland",
+      "releaseDate": "2019-09-01",
+      "website": "https://www.researchgate.net/publication/334163361_Modelling_liquefaction_problems_in_saturated_sand_with_application_to_sea-dike_failure_under_seismic_loading"
+    },
+    {
+      "name": "Modelling Liquefaction Using the Material Point Method – An Evaluation Using Two Constitutive Models",
+      "publisher": "2nd International Conference on the Material Point Method for Modelling Soil-Water-Structure Interaction, Cambridge, UK, pp. 82–89",
+      "releaseDate": "2019-01-08",
+      "website": "https://www.researchgate.net/publication/331199034_Modelling_liquefaction_using_the_Material_Point_Method_-_an_evaluation_using_two_constitutive_models"
+    },
+    {
+      "name": "Simulation of Liquefaction Effects in Saturated Sand Using UBC SAND 3D Model",
+      "publisher": "35. Baugrundtagung, Forum für junge Geotechnik-Ingenieure, Stuttgart, Germany, pp. 77–84",
+      "releaseDate": "2018-09-26",
+      "website": ""
+    },
+    {
+      "name": "Numerical Simulation of Pile Installation in Saturated Soil Using CPDI",
+      "publisher": "Numerical Methods in Geotechnical Engineering IX, Proceedings of the 9th European Conference on Numerical Methods in Geotechnical Engineering (NUMGE), Porto, Portugal, pp. 665–672",
+      "releaseDate": "2018-06-25",
+      "website": "https://www.researchgate.net/publication/331071631_Numerical_simulation_of_pile_installation_in_saturated_soil_using_CPDI"
+    },
+    {
+      "name": "Group Effects for Pile Rows Under Passive Lateral Loading",
+      "publisher": "DFI-EFFC International Conference on Deep Foundations and Ground Improvement, Rome, Italy, pp. 189–198",
+      "releaseDate": "2018-01-01",
+      "website": "https://www.researchgate.net/publication/331198950_Group_Effects_for_Pile_Rows_Under_Passive_Lateral_Loading"
+    },
+    {
+      "name": "Simulation of Offshore Piling Using Advanced Dynamic Material Point Method (MPM)",
+      "publisher": "Proceedings of DFI-India 2017: 7th Conference on Deep Foundation Technologies for Infrastructure Development in India, IIT Madras, Chennai",
+      "releaseDate": "2017-01-01",
+      "website": ""
+    },
+    {
+      "name": "A Penalty Function Method for Modelling Frictional Contact in MPM",
+      "publisher": "Procedia Engineering, 175, 116–123",
+      "releaseDate": "2017-12-01",
+      "website": "https://www.researchgate.net/publication/314093270_A_Penalty_Function_Method_for_Modelling_Frictional_Contact_in_MPM"
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
+      "name": "Development and Application of the Convected Particle Domain Interpolation Method for Large-Scale Monopile Installation Simulation",
+      "event": "Geotechnisches Seminar, Karlsruhe Institute of Technology (KIT), Institute of Soil Mechanics and Rock Mechanics (IBF)",
+      "date": "2023-11-30",
+      "location": "Karlsruhe, Germany",
       "description": ""
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
+      "name": "Development and Application of the Convected Particle Domain Interpolation Method for Offshore Monopile Installation Simulations",
+      "event": "Geotechnical Seminar 2024, Indian Institute of Technology (IIT) Hyderabad",
+      "date": "2024-01-08",
+      "location": "Hyderabad, India",
       "description": ""
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "Engineering Materials",
+      "institution": "COMMAS Program, University of Stuttgart",
+      "date": "2017-10-01",
+      "role": "Master's Course",
+      "description": "Winter Semester 2017 – Winter Semester 2026."
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Geoengineering and Geohydrology",
+      "institution": "WAREM Program, University of Stuttgart",
+      "date": "2019-10-01",
+      "role": "Master's Course",
+      "description": "Winter Semester 2019 – Winter Semester 2026. Originally co-taught both the Geoengineering and Geohydrology components; more recently taught the Geoengineering component only."
+    },
+    {
+      "course": "Numerical Methods of Soils and Concrete Structures",
+      "institution": "COMMAS Program, University of Stuttgart",
+      "date": "2020-04-01",
+      "role": "Master's Course",
+      "description": "Summer Semester 2020 – Summer Semester 2023. Taught the Soils component of the course."
+    },
+    {
+      "course": "Numerical Methods of Soils",
+      "institution": "COMMAS Program, University of Stuttgart",
+      "date": "2024-01-01",
+      "role": "Master's Course (Course Developer & Lecturer)",
+      "description": "2024 – Summer Semester 2025. Conceptualised and taught this new course for the COMMAS programme."
+    },
+    {
+      "course": "Tunnelbau (Tunnel Engineering)",
+      "institution": "Faculty of Civil and Environmental Engineering (Fakultät 2), University of Stuttgart",
+      "date": "2023-01-15",
+      "role": "Master's Course (Course Management)",
+      "description": "2023 – Summer Semester 2025. Managed this German-taught master's course for civil engineering students."
+    },
+    {
+      "course": "Geostatik (Geotechnical Structural Analysis)",
+      "institution": "Faculty of Civil and Environmental Engineering (Fakultät 2), University of Stuttgart",
+      "date": "2018-10-01",
+      "role": "Bachelor's Course (Contributing Lecturer)",
+      "description": "Winter Semester 2018 – 2026. Taught: Stoffgesetze in der Geotechnik (Constitutive Models in Geotechnics), Große Verformungen (Large Deformations), Hydraulische Kopplung in numerischen Methoden (Hydro-Mechanical Coupling in Numerical Methods)."
+    },
+    {
+      "course": "Tag der Wissenschaft (Day of Science) – Institute Stand Organiser",
+      "institution": "Institute for Geotechnical Engineering, University of Stuttgart",
+      "date": "2023-06-01",
+      "role": "Science Outreach",
+      "description": "Organised and ran the institute's exhibition stand at the university's public Day of Science event."
+    },
+    {
+      "course": "Große Geotechnik-Exkursion (Major Geotechnical Engineering Excursion)",
+      "institution": "University of Stuttgart",
+      "date": "2024-06-01",
+      "role": "Field Excursion (Lead Organiser)",
+      "description": "Led a large group of students on a multi-day geotechnical field excursion covering sites in Munich, Tegernsee, Salzburg, and Innsbruck."
+    },
+    {
+      "course": "Rosensteintunnel Road Construction Project Excursion",
+      "institution": "University of Stuttgart",
+      "date": "2024-07-01",
+      "role": "Field Excursion (Day Trip, Organiser)",
+      "description": "Organised a day-trip excursion for students to the Straßenbauprojekt Rosensteintunnel (Rosensteintunnel road construction project) site in Stuttgart."
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "portfolio": []
 }

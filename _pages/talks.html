@@ -2,7 +2,7 @@
 layout: archive
 title: "Talks and presentations"
 permalink: /talks/
-author_profile: true
+author_profile: false
 ---
 
 {% if site.talkmap_link == true %}
@@ -11,6 +11,8 @@ author_profile: true
 
 {% endif %}
 
+<ol class="talks-list">
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+  <li>{% include archive-single-talk.html %}</li>
 {% endfor %}
+</ol>
